@@ -103,7 +103,10 @@ class Agent():
         for var in model_vars:
             if (not ("critic_" + str(self.FLAGS.layers - 1) in var.name)) and (not ("actor_" + str(self.FLAGS.layers - 1) in var.name)):
                 lower_hac_model_vars.append(var)
-        lower_hac_saver = tf.train.Saver(lower_hac_model_vars)
+        if self.FLAGS.layers - 1 != 0:
+            lower_hac_saver = tf.train.Saver(lower_hac_model_vars)
+        else:
+            lower_hac_saver = tf.train.Saver(model_vars)
 
         # Set up directory for saving models
         self.model_dir = os.getcwd() + '/models'

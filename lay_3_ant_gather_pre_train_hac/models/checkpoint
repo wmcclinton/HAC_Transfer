@@ -1,3 +1,2 @@
-model_checkpoint_path: "/gpfs/main/home/wmcclint/Desktop/HAC_tests/lay_3_ant_gather_pre_train_hac/models/HAC.ckpt-9"
-all_model_checkpoint_paths: "/gpfs/main/home/wmcclint/Desktop/HAC_tests/lay_3_ant_gather_pre_train_hac/models/HAC.ckpt-99"
-all_model_checkpoint_paths: "/gpfs/main/home/wmcclint/Desktop/HAC_tests/lay_3_ant_gather_pre_train_hac/models/HAC.ckpt-9"
+model_checkpoint_path: "/gpfs/main/home/wmcclint/Desktop/HAC_tests/lay_3_ant_gather_pre_train_hac/saved_models/HAC.ckpt-99"
+all_model_checkpoint_paths: "/gpfs/main/home/wmcclint/Desktop/HAC_tests/lay_3_ant_gather_pre_train_hac/saved_models/HAC.ckpt-99"
