@@ -1,0 +1,2 @@
+model_checkpoint_path: "HAC.ckpt-99"
+all_model_checkpoint_paths: "HAC.ckpt-99"

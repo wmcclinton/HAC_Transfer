@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/wmcclint/Desktop/HAC_tests/lay_3_ant_reacher_flat/models/HAC.ckpt-9"
+all_model_checkpoint_paths: "/home/wmcclint/Desktop/HAC_tests/lay_3_ant_reacher_flat/models/HAC.ckpt-9"
